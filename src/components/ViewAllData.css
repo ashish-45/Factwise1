@@ -1,0 +1,104 @@
+.inputStyle{
+    box-shadow: 0px 1px 5px;
+    width: 23rem;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.card{
+    box-shadow: 0px 1px 5px;
+    border-radius: 10px;
+    display: block;
+    max-width: 23rem;
+    margin: 10px auto;
+    padding: 10px 15px;
+}
+
+.card-upperheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-upperheader .imagesection img{
+    border-radius: 50%;
+}
+
+.card-upperheader .imagesection{
+    display: flex;
+}
+
+.card-upperheader .imagesection h3{
+    margin-left: 10px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .ageSection{
+    line-height: 0.6rem;
+}
+
+.header .ageSection p:first-child{
+    text-align: left;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.header .genderSection{
+    line-height: 0.6rem;
+}
+
+.header .genderSection p{
+    text-align: left;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.header .genderSection select{
+    border: none;
+}
+
+.header .countries {
+    line-height: 0.6rem;
+}
+
+.header .countries p:first-child{
+    text-align: left;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.description p:first-child{
+    text-align: initial;
+    color: gray;
+}
+
+.description p:last-child{
+    text-align: left;
+}
+
+.iconSection p{
+    text-align: end;
+}
+
+.iconSection .deleteIcon{
+    height: 2em;
+    width: 2em;
+    margin-right: 10px;
+    color: red;
+}
+
+.iconSection .editiconSection{
+    height: 2em;
+    width: 2em;
+}
+
+.toggleButton{
+    cursor: pointer;
+}
