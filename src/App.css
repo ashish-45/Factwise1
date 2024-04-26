@@ -44,3 +44,53 @@ h1{
     padding: 10px;
     text-transform: uppercase;
 }
+
+
+/* Card */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.product img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info p {
+  margin: 0;
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.product-price {
+  color: green;
+  font-weight: bold;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.parent{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
